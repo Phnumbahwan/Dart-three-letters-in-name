@@ -14,7 +14,14 @@ class Name {
   void display() {
     try{
       int size = 3;
+      var check_duplicate = new List();
       for(int x = 0;x < size;x++){
+        if(!check_duplicate.contains(this.name[x])){
+          check_duplicate.add(this.name[x]);
+        }else{
+          size++;
+          continue;
+        }
         switch(this.name[x].toUpperCase()){
           case ' ': 
             size++;
@@ -155,7 +162,7 @@ class Name {
             print(' *     *');
             print('  *****  *');
             break;
-          case 'P': 
+          case 'R': 
             print('****');
             print('*   *');
             print('*   *');
