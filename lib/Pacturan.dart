@@ -1,32 +1,32 @@
 void main() {
-  String name = 'BA E';
+  String name = 'Al Ryan';
   Name name_three_letters = Name(name);
   name_three_letters.display();
 }
 
 class Name {
   String name;
-  
-  Name (String name) {
+
+  Name(String name) {
     this.name = name;
   }
-  
+
   void display() {
-    try{
+    try {
       int size = 3;
       var check_duplicate = new List();
-      for(int x = 0;x < size;x++){
+      for (int x = 0; x < size; x++) {
         if(!check_duplicate.contains(this.name[x])){
           check_duplicate.add(this.name[x]);
         }else{
           size++;
           continue;
         }
-        switch(this.name[x].toUpperCase()){
-          case ' ': 
+        switch (this.name[x].toUpperCase()) {
+          case ' ':
             size++;
             break;
-          case 'A': 
+          case 'A':
             print('     *');
             print('    *  *');
             print('   *    *');
@@ -34,7 +34,7 @@ class Name {
             print(' *        *');
             print('*          *');
             break;
-          case 'B': 
+          case 'B':
             print('*******');
             print('*      *');
             print('* ****');
@@ -42,7 +42,7 @@ class Name {
             print('*      *');
             print('*******');
             break;
-          case 'C': 
+          case 'C':
             print(' ******');
             print('*');
             print('*');
@@ -50,7 +50,7 @@ class Name {
             print('*');
             print(' ******');
             break;
-          case 'D': 
+          case 'D':
             print('*****');
             print('*    *');
             print('*     *');
@@ -58,7 +58,7 @@ class Name {
             print('*    *');
             print('*****');
             break;
-          case 'E': 
+          case 'E':
             print('********');
             print('*');
             print('*******');
@@ -66,7 +66,7 @@ class Name {
             print('*');
             print('********');
             break;
-          case 'F': 
+          case 'F':
             print('******');
             print('*');
             print('****');
@@ -74,7 +74,7 @@ class Name {
             print('*');
             print('*');
             break;
-          case 'G': 
+          case 'G':
             print(' *****');
             print('*');
             print('*');
@@ -82,7 +82,7 @@ class Name {
             print('*     *');
             print('******');
             break;
-          case 'H': 
+          case 'H':
             print('*     *');
             print('*     *');
             print('*******');
@@ -90,7 +90,7 @@ class Name {
             print('*     *');
             print('*     *');
             break;
-          case 'I': 
+          case 'I':
             print('*****');
             print('  *');
             print('  *');
@@ -98,7 +98,7 @@ class Name {
             print('  *');
             print('*****');
             break;
-          case 'J': 
+          case 'J':
             print('*******');
             print('   *');
             print('   *');
@@ -106,7 +106,7 @@ class Name {
             print('*  *');
             print('***');
             break;
-          case 'K': 
+          case 'K':
             print('*   *');
             print('*  *');
             print('* *');
@@ -114,7 +114,7 @@ class Name {
             print('*   *');
             print('*    *');
             break;
-          case 'L': 
+          case 'L':
             print('*');
             print('*');
             print('*');
@@ -122,7 +122,7 @@ class Name {
             print('*');
             print('******');
             break;
-          case 'M': 
+          case 'M':
             print('*     *');
             print('* * * *');
             print('*  *  *');
@@ -130,7 +130,7 @@ class Name {
             print('*     *');
             print('*     *');
             break;
-          case 'N': 
+          case 'N':
             print('*      *');
             print('* *    *');
             print('*  *   *');
@@ -138,7 +138,7 @@ class Name {
             print('*    * *');
             print('*      *');
             break;
-          case 'O': 
+          case 'O':
             print('  *****');
             print(' *     *');
             print('*       *');
@@ -146,7 +146,7 @@ class Name {
             print(' *     *');
             print('  *****');
             break;
-          case 'P': 
+          case 'P':
             print('****');
             print('*   *');
             print('*   *');
@@ -154,7 +154,7 @@ class Name {
             print('*');
             print('*');
             break;
-          case 'O': 
+          case 'O':
             print('  *****');
             print(' *     *');
             print('*       *');
@@ -162,7 +162,7 @@ class Name {
             print(' *     *');
             print('  *****  *');
             break;
-          case 'R': 
+          case 'R':
             print('****');
             print('*   *');
             print('*   *');
@@ -170,7 +170,7 @@ class Name {
             print('*  *');
             print('*    *');
             break;
-          case 'S': 
+          case 'S':
             print(' *****');
             print('*     *');
             print(' *');
@@ -178,7 +178,7 @@ class Name {
             print('*    *');
             print(' ****');
             break;
-          case 'T': 
+          case 'T':
             print('********');
             print('   *');
             print('   *');
@@ -186,7 +186,7 @@ class Name {
             print('   *');
             print('   *');
             break;
-          case 'U': 
+          case 'U':
             print('*     *');
             print('*     *');
             print('*     *');
@@ -194,7 +194,7 @@ class Name {
             print('*     *');
             print(' ****');
             break;
-          case 'V': 
+          case 'V':
             print('*         *');
             print(' *       *');
             print('  *     *');
@@ -202,7 +202,7 @@ class Name {
             print('    * *');
             print('     *');
             break;
-          case 'W': 
+          case 'W':
             print('*       *');
             print('*   *   *');
             print('*   *   *');
@@ -210,7 +210,7 @@ class Name {
             print('*   *   *');
             print(' **  **');
             break;
-          case 'X': 
+          case 'X':
             print('*     *');
             print(' *   *');
             print('  * * ');
@@ -218,7 +218,7 @@ class Name {
             print(' *   *');
             print('*     *');
             break;
-          case 'Y': 
+          case 'Y':
             print('*     *');
             print(' *   *');
             print('  **');
@@ -226,7 +226,7 @@ class Name {
             print(' *');
             print('*');
             break;
-          case 'Z': 
+          case 'Z':
             print('*******');
             print('     *');
             print('   *');
@@ -236,8 +236,10 @@ class Name {
             break;
         }
       }
-    }catch(e){
+    } catch (e) {
       print('Warning : Make atleast 3 letters word');
     }
   }
 }
+
+
