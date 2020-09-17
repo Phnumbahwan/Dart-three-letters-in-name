@@ -8,7 +8,7 @@
       "name": "Dart & Flutter",
       "request": "launch",
       "type": "dart",
-      "program": "C:/Users/gil/Documents/Dart/lib/Pacturan.dart"
+      "program": "C:/src/Dart/Dart-three-letters-in-name/Pacturan.dart"
     }
   ]
 }
