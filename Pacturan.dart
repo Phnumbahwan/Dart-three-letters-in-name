@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main() {
-  String name = 'adams';
+  String name = 'Adams';
   Name name_three_letters = Name(name);
   name_three_letters.display();
 }
@@ -10,7 +10,7 @@ class Name {
   String name;
 
   Name(String name) {
-    this.name = name;
+    this.name = name.toUpperCase();
   }
 
   void display() {
@@ -24,7 +24,7 @@ class Name {
           size++;
           continue;
         }
-        switch (this.name[x].toUpperCase()) {
+        switch (this.name[x]) {
           case ' ':
             size++;
             break;
